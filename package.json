@@ -1,0 +1,18 @@
+{
+  "name": "festival-de-musica-udemy-learning",
+  "version": "1.0.0",
+  "description": "Proyecto con Gulp,SASS y HTML",
+  "main": "index.js",
+  "scripts": {
+    "SASS": "sass src/scss:build/css"
+  },
+  "keywords": [
+    "SASS.",
+    "Gulp"
+  ],
+  "author": "Alejandro Luces",
+  "license": "ISC",
+  "devDependencies": {
+    "sass": "^1.66.1"
+  }
+}
