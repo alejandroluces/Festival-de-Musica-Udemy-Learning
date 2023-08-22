@@ -1,6 +1,6 @@
 
 const {src,dest}= require('gulp') // Importar gulp
-const sass = require('gulp-sass') // Importar el compilador de sass
+const sass = require('gulp-sass')(require('sass')) // Importar el compilador de sass
 
 function css(done) {
   
