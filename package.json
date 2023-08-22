@@ -14,9 +14,8 @@
   "author": "Alejandro Luces",
   "license": "ISC",
   "devDependencies": {
+    "gulp": "^4.0.2",
+    "gulp-sass": "^5.1.0",
     "sass": "^1.66.1"
-  },
-  "dependencies": {
-    "gulp": "^4.0.2"
   }
 }
