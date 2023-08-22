@@ -11,4 +11,10 @@ function css(done) {
   done()// Callback que avisa que la tarea ha terminado
 }
 
+function dev(done) {
+  watch('src/scss/app.scss', css);
+  done();
+}
+
 exports.css = css; // Exportar la tarea css
+exports.dev = dev; // Exportar la tarea dev
